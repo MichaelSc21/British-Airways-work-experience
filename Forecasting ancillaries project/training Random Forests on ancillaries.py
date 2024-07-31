@@ -1,3 +1,7 @@
+# This file was run as a script on a virtual machine as it took too long for the model to be trained 
+# so I just ran it in a tmux session on a Linux VM and outputted the results to pickle files which I will not include
+# The 3 pickle files are: "most_important_features_RF_baggage", "most_important_features_RF_p4s", "most_important_features_RF_upgrade"
+
 from IPython.core.display import Markdown
 import pandas as pd
 import numpy as np
